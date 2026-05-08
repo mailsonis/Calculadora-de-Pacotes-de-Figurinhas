@@ -39,7 +39,7 @@ export default function App() {
                 id="packs"
                 type="number"
                 placeholder="Ex: 10"
-                className="h-12 md:h-16 text-lg md:text-2xl border-neutral-200 focus:ring-black"
+                className="h-12 md:h-16 text-lg md:text-2xl border-2 border-neutral-300 focus:border-black focus:ring-1 focus:ring-black"
                 value={inputPacks || ''}
                 onChange={(e) => setInputPacks(Number(e.target.value))}
               />
@@ -53,7 +53,7 @@ export default function App() {
                 id="paid"
                 type="number"
                 placeholder="Ex: 50.00"
-                className="h-12 md:h-16 text-lg md:text-2xl border-neutral-200 focus:ring-black"
+                className="h-12 md:h-16 text-lg md:text-2xl border-2 border-neutral-300 focus:border-black focus:ring-1 focus:ring-black"
                 value={amountPaid || ''}
                 onChange={(e) => setAmountPaid(Number(e.target.value))}
               />
