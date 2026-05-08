@@ -1,0 +1,6 @@
+{
+  "name": "Calculadora de Pacotes de Figurinhas",
+  "description": "Aplicativo para calcular o valor total de pacotes de figurinhas e gerenciar troco ou saldo devedor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
